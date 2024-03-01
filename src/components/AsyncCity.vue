@@ -27,7 +27,7 @@
           })
         }}
       </p>
-      <p class="text-8xl mb-8">
+      <p class="text-8xl mb-8 relative">
         {{ Math.round(weatherData.current.temp) }}&deg;<span class="text-6xl absolute">c</span>
       </p>
       <p>
